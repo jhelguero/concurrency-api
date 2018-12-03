@@ -18,6 +18,7 @@ results/
 
 # Java
 bin/
+*.class
 
 # Java Dump
 *.hprof
