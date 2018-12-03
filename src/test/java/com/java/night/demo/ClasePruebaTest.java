@@ -66,6 +66,6 @@ public class ClasePruebaTest {
     public void proccessResponsesTest() {
         List<Forma> formaList = FormaFactory.buildFormaListTipoDesconocido();
 
-        executorServiceConcurrency.proccessResponses(formaList);
+        executorServiceConcurrency.proccessResponses(formaList, formaList.size());
     }
 }
