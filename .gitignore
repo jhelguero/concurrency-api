@@ -1,5 +1,23 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
 # Intellij
 .idea/*
+!.idea/runConfigurations
+*.iml
+*.iws
+classes/
 
 # Gradle
 .gradle/
+out/
+build/
+results/
+
+# Java
+bin/
+
+# Java Dump
+*.hprof
